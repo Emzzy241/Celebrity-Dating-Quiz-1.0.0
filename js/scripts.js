@@ -6,7 +6,7 @@ $(document).ready( function(){
         const age = parseInt(prompt("enter your age"));
         // const gender = $("#gender").val();
 
-        
+
 
         // first if statement: only when the user is 18 or older should we give the user permission to our site
         if(age >= 18){
@@ -31,8 +31,20 @@ $(document).ready( function(){
             let ageRange = $("#ageRange").val();
             let relationshipStatus = $("#relationshipStatus").val();
 
-            if(gender === 'male' && ageRange === 'genz'){
+            if(gender = 'male'){
                 $(".woman2").show();
+            }
+            else if(relationshipStatus = 'respect'){
+                $(".man3").show();
+            }
+            else if(ageRange === 'millenial' || gender === 'female'){
+                $(".woman1").show();
+            }
+            else if(gender === 'female' && relationshipStatus === 'toxic'){
+                $(".man1").show();
+            }
+            else{
+                alert("Dear user please fill in your info");
             }
         });
     });
