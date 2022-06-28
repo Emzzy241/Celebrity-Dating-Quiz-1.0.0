@@ -10,7 +10,7 @@ body{
 .hed{
     text-align: center;
     margin-top: 10px;
-    
+     
 }
 .hed h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,21 +19,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
-.not18{
-    text-align: center;
-    display: none;
-}
-.not18 h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 28px;
-}
 
-.hed1{
-    text-align: center;
-    margin-top: 10px;
-    
-}
-.hed1 h1{
+/* The section after the button is clicked  */
+
+.hed1 h1, h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hed1 p{
@@ -41,21 +30,11 @@ body{
     font-weight: 500;
 }
 
-
-label{
-    font-weight: 550;
-}
-
-#app{
-   display: none;
-}
-#app h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* Hide the males and displaying them if they fulfill a value in javascript */
-
+/* Hiding the pictures of celebrities */
 .man1{
+    display: none;
+}
+.woman1{
     display: none;
 }
 .woman2{
@@ -64,6 +43,22 @@ label{
 .man3{
     display: none;
 }
-.woman1{
+
+
+.not18{
+    text-align: center;
+    display: none;
+}
+.not18 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+#opening{
+    display: none;
+}
+.hidea{
+    display: none;
+}
+#app{
     display: none;
 }

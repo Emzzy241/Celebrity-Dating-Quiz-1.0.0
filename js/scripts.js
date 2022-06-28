@@ -17,7 +17,7 @@ $(document).ready( function(){
             $("button#openApp").hide();
         }
 
-        
+        $("#opening").show();        
         
 
         $("#opening").submit( function(event){
@@ -31,21 +31,13 @@ $(document).ready( function(){
             let ageRange = $("#ageRange").val();
             let relationshipStatus = $("#relationshipStatus").val();
 
-            if(gender = 'male'){
-                $(".woman2").show();
-            }
-            else if(relationshipStatus = 'respect'){
-                $(".man3").show();
-            }
-            else if(ageRange === 'millenial' || gender === 'female'){
+            if(gender === 'male'){
                 $(".woman1").show();
             }
-            else if(gender === 'female' && relationshipStatus === 'toxic'){
-                $(".man1").show();
+            else if(gender === 'female'){
+                $(".man3").show();
             }
-            else{
-                alert("Dear user please fill in your info");
-            }
+
         });
     });
 
