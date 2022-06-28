@@ -1,4 +1,4 @@
-# EmaClub Celebrity dating Quiz
+# EmaClub Celebrity dating Quiz App
 
 ### made by Mojiboye Emmanuel
 
