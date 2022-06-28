@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rosybrown;
+}
+.hed{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.hed h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hed p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.not18{
+    text-align: center;
+    display: none;
+}
+.not18 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.hed1{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.hed1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hed1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+label{
+    font-weight: 550;
+}
+
+#app{
+   display: none;
+}
+#app h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Hide the males and displaying them if they fulfill a value in javascript */
+
+.man1{
+    display: none;
+}
+.woman2{
+    display: none;
+}
+.man3{
+    display: none;
+}
