@@ -26,16 +26,28 @@ $(document).ready( function(){
             let firstname = $("#name1").val();
             let lastname = $("#name2").val();
             let place = $("#place").val();
-            let gender = $("#gender").val();
+            let gender = $("#gender").find(":selected").val();;
             let email = $("#email").val();
-            let ageRange = $("#ageRange").val();
+            let ageRange = $("#ageRange").find(":selected").val();
             let relationshipStatus = $("#relationshipStatus").val();
 
-            if(gender === 'male'){
-                $(".woman1").show();
+            if(gender === 'man'){
+                $(".man1").hide();
+            $(".woman1").show();
+        }
+            else {
+                $(".woman1").hide();
+                $(".man1").show();
+                
             }
-            else if(gender === 'female'){
+
+            if(ageRange ==='millenial'){
+                $(".woman2").hide();
                 $(".man3").show();
+            }
+            else{
+                $(".man3").hide();
+                $(".woman2").show();
             }
 
         });
