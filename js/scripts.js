@@ -41,14 +41,7 @@ $(document).ready( function(){
                 
             }
 
-            if(ageRange ==='millenial'){
-                $(".woman2").hide();
-                $(".man3").show();
-            }
-            else{
-                $(".man3").hide();
-                $(".woman2").show();
-            }
+            
 
         });
     });
