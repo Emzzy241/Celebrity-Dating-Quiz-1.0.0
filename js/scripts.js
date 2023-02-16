@@ -12,21 +12,23 @@ $(document).ready( function(){
         if(age >= 18){
             $("#app").show();
             $(".hed").hide();
+            $("#opening").show();
         }else{
-            $(".not18").show();
+            $("#opening").hide();
             $("button#openApp").hide();
+            $(".not18").show();
         }
 
-        $("#opening").show();        
         
-
+        
         $("#opening").submit( function(event){
             event.preventDefault();
+            $("#opening").show();        
 
             let firstname = $("#name1").val();
             let lastname = $("#name2").val();
             let place = $("#place").val();
-            let gender = $("#gender").find(":selected").val();;
+            let gender = $("#gender").find(":selected").val();
             let email = $("#email").val();
             let ageRange = $("#ageRange").find(":selected").val();
             let relationshipStatus = $("#relationshipStatus").val();
