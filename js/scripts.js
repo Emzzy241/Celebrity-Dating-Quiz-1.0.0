@@ -38,10 +38,21 @@ $(document).ready( function(){
             $(".woman1").show();
         }
             else {
-                $(".woman1").hide();
+                $(".woman2").hide();
                 $(".man1").show();
                 
             }
+
+        //     if(ageRange === 'millenial'){
+        //         $(".man1").hide();
+        //         $(".man3").hide();
+        //     $(".woman1").show();
+        // }
+        //     else if(ageRange === 'genz'){
+        //         $(".woman1").hide();
+        //         $(".man3").show();
+                
+        //     }
 
             
 
